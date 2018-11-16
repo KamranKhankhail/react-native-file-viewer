@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "RNFileViewer"
-  s.version      = "1.0.1"
+  s.version      = "1.0.9"
   s.summary      = "RNFileViewer"
   s.description  = <<-DESC
                   Native file viewer for react-native
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "vinz.scamporlino@gmail.com" }
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/vinzscam/react-native-file-viewer.git", :tag => "master" }
   s.source_files  = "*.{h,m}"
   s.requires_arc = true
@@ -21,4 +21,3 @@ Pod::Spec.new do |s|
 
 end
 
-  
